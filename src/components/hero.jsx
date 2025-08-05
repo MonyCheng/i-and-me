@@ -37,8 +37,8 @@ const hero = () => {
             </div>
 
             {/* */}
-            {/* <Spline className="absolute lg:top-0 top-[-20%] bottom-0 " scene="https://prod.spline.design/IZNqc72aBChlifBh/scene.splinecode" /> */}
-            <Spline className="absolute lg:top-0 top-[-20%] bottom-0" scene="https://prod.spline.design/S3Ca9ryYBhFbel8X/scene.splinecode" />
+            <Spline className="absolute lg:top-0 top-[-20%] bottom-0 " scene="https://prod.spline.design/IZNqc72aBChlifBh/scene.splinecode" />
+            {/* <Spline className="absolute lg:top-0 top-[-20%] bottom-0" scene="https://prod.spline.design/S3Ca9ryYBhFbel8X/scene.splinecode" /> */}
         </main>
     )
 }
