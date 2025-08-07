@@ -4,7 +4,6 @@ const header = () => {
     // Toggle the mobile menu
     const toggleMobileMenu = () => {
         const mobileMenu = document.getElementById('mobileMenu')
-        //Check if current is hidden class
         if (mobileMenu.classList.contains('hidden')) {
             mobileMenu.classList.remove('hidden')
         } else {
@@ -14,27 +13,27 @@ const header = () => {
 
     return (
         <header className="flex justify-between items-center py-4 px-4 lg:px-20">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-light m-0">
+            {/* <h1 className="text-3xl text-red-500 md:text-3xl lg:text-5xl font-light m-0">
                 MonyCheng
-            </h1>
+            </h1> */}
 
             <nav className="hidden md:flex items-center gap-12">
                 <a className="text-base tracking-wide transition-colors hover:text-gray-300 z-50" href="#">
-                    Company
+                    Me
                 </a>
                 <a className="text-base tracking-wide transition-colors hover:text-gray-300 z-50" href="#">
-                    Feature
+                    My Feature
                 </a>
                 <a className="text-base tracking-wide transition-colors hover:text-gray-300 z-50" href="#">
                     Resources
                 </a>
                 <a className="text-base tracking-wide transition-colors hover:text-gray-300 z-50" href="#">
-                    Docs
+                    Contact
                 </a>
             </nav>
 
             <button className="hidden md:block bg-[#a7a7a7] text-black py-3 px-6 rounded-full duration-500 hover:bg-white cursor-pointer z-50">
-                Sign-In
+                Check out My Portfolio
             </button>
 
             {/* Mobile Menu */}

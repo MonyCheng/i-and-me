@@ -1,5 +1,6 @@
 import Headers from "./components/header"
 import Hero from "./components/hero"
+import MyScene from "./components/my_scene"
 
 export default function App() {
   return (
@@ -13,8 +14,10 @@ export default function App() {
       </Headers>
 
       <Hero>
-
       </Hero>
+
+      {/* <MyScene>
+      </MyScene> */}
     </main>
   )
 }  
